@@ -24,5 +24,3 @@ def yes_no(action, number, todo_list):
     yes_no_input = input()
     yes_no_input = yes_no_input.strip().lower()
     return yes_no_input
-
-print("Hello")
