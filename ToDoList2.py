@@ -1,6 +1,8 @@
 import Functions
+import time
 
-#This is my test commit so i cant see how to use git
+current_time = time.strftime("%b %d %Y %H:%S")
+print(f"It is currently {current_time}")
 
 while True :
     user_action = input("Add, Show, Edit, Complete or Exit ToDo's: ")
