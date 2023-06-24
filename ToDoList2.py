@@ -1,5 +1,7 @@
 import Functions
 
+#This is my test commit so i cant see how to use git
+
 while True :
     user_action = input("Add, Show, Edit, Complete or Exit ToDo's: ")
     user_action =  user_action.strip().lower()
