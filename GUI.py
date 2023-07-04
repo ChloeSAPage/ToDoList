@@ -7,7 +7,7 @@ if not os.path.exists("ToDoList.txt"):
     with open("ToDoList.txt", "w") as file:
         pass
 
-sg.theme("")
+sg.theme("random")
 
 clock = [sg.Text("", key="clock")]
 add_ = [[sg.Text("Type in a Todo")],
