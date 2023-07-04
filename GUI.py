@@ -1,8 +1,13 @@
 import functions
 import PySimpleGUI as sg
 import time
+import os
 
-sg.theme("DarkBlue14")
+if not os.path.exists("ToDoList.txt"):
+    with open("ToDoList.txt", "w") as file:
+        pass
+
+sg.theme("")
 
 clock = [sg.Text("", key="clock")]
 add_ = [[sg.Text("Type in a Todo")],
